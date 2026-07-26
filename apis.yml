@@ -1,8 +1,11 @@
 aid: fact-base-inc
 name: Fact Base Inc.
-description: 'Fact Base Inc. is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a
+  mission to make manufacturing seamless by driving the digitization of small and mid-sized factories
+  (町工場). Its corporate site presents the company mission and vision for connecting Japan''s fragmented
+  small-factory manufacturing base through digital tooling. Surfaced through the API Evangelist network
+  as an Insight Partners portfolio company; as of this enrichment pass no public developer program,
+  API, OpenAPI, SDK, or documentation is published on the corporate domain.'
 url: https://raw.githubusercontent.com/api-evangelist/fact-base-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +13,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://storage.googleapis.com/production-os-assets/assets/7c1b886b-9518-4f74-9a40-4613316fa605
 tags:
 - Company
 - Manufacturing
+- Japan
+- Digitization
+- Smart Factory
+- Manufacturing Technology
+- Industry 4.0
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fact-base-inc-domain-security.yml
 - type: Website
   url: https://fact-base.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

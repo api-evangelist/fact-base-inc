@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: fact-base.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  1 10:31:15 2026 GMT
+  hsts: false
+domains:
+- domain: fact-base.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
