@@ -1,5 +1,5 @@
 aid: fact-base-inc
-name: Fact Base Inc.
+name: Fact Base
 description: 'Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a
   mission to make manufacturing seamless by driving the digitization of small and mid-sized factories
   (町工場). Its corporate site presents the company mission and vision for connecting Japan''s fragmented
@@ -63,3 +63,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Fact Base Inc.
